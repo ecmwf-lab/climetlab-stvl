@@ -13,7 +13,7 @@ import os
 import setuptools
 
 try:
-    import ecmp
+    import ecmp  # noqa: F401
 except ImportError:
     raise ImportError("must install ecmp befaore")
 

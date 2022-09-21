@@ -21,7 +21,7 @@ def test_source():
         reference_datetimes=reference_datetimes,
     )
     df = ds.to_pandas()
-    print(len(df))
+    assert len(df) == 188356
 
 
 if __name__ == "__main__":
